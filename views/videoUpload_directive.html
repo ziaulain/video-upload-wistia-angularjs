@@ -1,0 +1,17 @@
+<div class="upload-video-container">
+	<input class="upload-btn" id="fileupload" type="file" name="files[]" data-url="https://upload.wistia.com/?api_password=af919d7a676ec5fd7febf469310cfd47a7b729e140d76728f819063c3465ccc9&project_id=86ta9jr6yp"/>
+	<p>&nbsp;&nbsp;{{text_status}}</p>
+	<div class="progress">
+	  <div class="progress-bar" role="progressbar" aria-valuenow="{{progress}}"
+	  aria-valuemin="0" aria-valuemax="100" ng-style="{width: progress+'%'}">
+	    <span class="sr-only">70% Complete</span>
+	  </div>
+	</div>
+	
+	<iframe ng-src="{{videoId}}" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="600" height="366"></iframe>
+
+	<div id="progress">
+	    <div class="bar" style="width: 0%;"></div>
+	</div>
+
+</div>
