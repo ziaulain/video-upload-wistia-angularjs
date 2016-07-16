@@ -2,12 +2,12 @@
 
 .upload-video-container {
 	margin-top: 20px;
-    width: 100%;
+    width: 600px;
 }
 
 .upload-btn {
 	float: left;
-	width: 80px;
+	width: 90px;
 }
 .err {
   color: red;
