@@ -5,7 +5,7 @@ function MainCtrl($scope,$timeout) {
 };
 
 
-angular.module('videoUpload').directive('customCarousel', function($timeout,$http,$location) {
+angular.module('videoUpload').directive('videoUpload', function($timeout,$http,$location) {
 
     return {
         restrict : 'A',
