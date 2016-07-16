@@ -1,10 +1,14 @@
+/* Styles go here */
+
 .upload-video-container {
 	margin-top: 20px;
-    width: 600px;
+    width: 100%;
 }
 
 .upload-btn {
 	float: left;
-	width: 90px;
+	width: 80px;
 }
-
+.err {
+  color: red;
+}
