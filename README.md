@@ -1,0 +1,1 @@
+1. Open Index.html in firefox or 

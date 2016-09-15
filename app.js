@@ -35,7 +35,7 @@ angular.module('videoUpload').directive('videoUpload', function($timeout,$http,$
                     
                 },
                 done: function (e, data) {
-                    scope.videoId = 'http://fast.wistia.net/embed/iframe/'+data.result.hashed_id;
+                    scope.videoId = 'https://fast.wistia.net/embed/iframe/'+data.result.hashed_id;
                     scope.text_status = data.files[0].name;
                     scope.$apply();
                         
