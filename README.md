@@ -1,1 +1,2 @@
-1. Open Index.html in firefox or 
+
+Open Index.html file in FireFox.
